@@ -72,7 +72,9 @@ blockquote > cite {font-weight: 400;font-size: 14px;display: block;}
 .cbp-popup-lightbox .cbp-popup-close {background: url(../img/cbp-sprite.png) no-repeat scroll -92px 0 transparent;}
 .hidden{display: none;}
 
-
+#space{
+    margin: 3px 0;
+}
 
 /* transition none */
 .no-transition *{transition-timing-function:initial; -moz-transition-timing-function:initial; -webkit-transition-timing-function:initial; -o-transition-timing-function:initial; -ms-transition-timing-function:initial; transition-duration: 0s; -moz-transition-duration: 0s; -webkit-transition-duration: 0s; -o-transition-duration: 0s; -ms-transition-duration: 0s;}
@@ -3375,6 +3377,14 @@ input.inputerror, textarea.inputerror, select.inputerror {
 
 }
 
+input{
+    padding: 5px;
+    margin: 3px;
+    border-radius: 5px;
+    width: 90%;
+    height: 45px;
+}
+
 .svg{ 
     filter: invert(12%) sepia(80%) saturate(3992%) hue-rotate(273deg) brightness(80%) contrast(119%);
   }
@@ -3383,3 +3393,4 @@ input.inputerror, textarea.inputerror, select.inputerror {
         display: none;
     }
 }
+
